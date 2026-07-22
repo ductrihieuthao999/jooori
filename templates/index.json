@@ -322,7 +322,7 @@
               "blocks": {
                 "image_ethos_1": {
                   "type": "image",
-                  "settings": { "image_ratio": "portrait", "width": "fill", "height": "fit" },
+                  "settings": { "image_ratio": "portrait", "width": "fill", "height": "fit", "border_radius": 24 },
                   "blocks": {}
                 },
                 "text_ethos_title_1": {
@@ -352,7 +352,7 @@
               "blocks": {
                 "image_ethos_2": {
                   "type": "image",
-                  "settings": { "image_ratio": "portrait", "width": "fill", "height": "fit" },
+                  "settings": { "image_ratio": "portrait", "width": "fill", "height": "fit", "border_radius": 24 },
                   "blocks": {}
                 },
                 "text_ethos_title_2": {
@@ -382,7 +382,7 @@
               "blocks": {
                 "image_ethos_3": {
                   "type": "image",
-                  "settings": { "image_ratio": "portrait", "width": "fill", "height": "fit" },
+                  "settings": { "image_ratio": "portrait", "width": "fill", "height": "fit", "border_radius": 24 },
                   "blocks": {}
                 },
                 "text_ethos_title_3": {
@@ -411,8 +411,8 @@
         "section_width": "page-width",
         "section_height": "",
         "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "padding-block-start": 120,
+        "padding-block-end": 120
       }
     },
     "section_newsletter01": {
