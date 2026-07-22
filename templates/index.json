@@ -15,7 +15,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Browse our latest products</p>",
+            "text": "<p>Crafted for the moments that matter</p>",
             "text_color": "{{ settings.color_palette.background }}",
             "width": "fit-content",
             "max_width": "normal",
@@ -41,7 +41,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Shop all",
+            "label": "Shop the collection",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button-custom",
@@ -78,7 +78,7 @@
         "vertical_alignment_flex_direction_column": "flex-end",
         "gap": 24,
         "section_width": "page-width",
-        "section_height": "medium",
+        "section_height": "large",
         "section_height_custom": 50,
         "background_color": "rgba(0,0,0,0)",
         "toggle_overlay": true,
@@ -276,10 +276,177 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "section_ethos01": {
+      "type": "section",
+      "name": "t:names.section",
+      "blocks": {
+        "text_ethos_heading": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Our Philosophy</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "wrap": "pretty"
+          },
+          "blocks": {}
+        },
+        "group_ethos_row": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-start",
+            "gap": 32,
+            "width": "fill",
+            "width_mobile": "fill",
+            "height": "fit",
+            "background_media": "none",
+            "border": "none"
+          },
+          "blocks": {
+            "group_ethos_col1": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 16,
+                "width": "fill",
+                "width_mobile": "fill",
+                "height": "fit"
+              },
+              "blocks": {
+                "image_ethos_1": {
+                  "type": "image",
+                  "settings": { "image_ratio": "portrait", "width": "fill", "height": "fit" },
+                  "blocks": {}
+                },
+                "text_ethos_title_1": {
+                  "type": "text",
+                  "settings": { "text": "<h5>Craft</h5>", "width": "fit-content", "alignment": "center", "type_preset": "h5" },
+                  "blocks": {}
+                },
+                "text_ethos_desc_1": {
+                  "type": "text",
+                  "settings": { "text": "<p>Placeholder copy describing this pillar of the brand.</p>", "width": "100%", "alignment": "center", "type_preset": "rte" },
+                  "blocks": {}
+                }
+              },
+              "block_order": ["image_ethos_1", "text_ethos_title_1", "text_ethos_desc_1"]
+            },
+            "group_ethos_col2": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 16,
+                "width": "fill",
+                "width_mobile": "fill",
+                "height": "fit"
+              },
+              "blocks": {
+                "image_ethos_2": {
+                  "type": "image",
+                  "settings": { "image_ratio": "portrait", "width": "fill", "height": "fit" },
+                  "blocks": {}
+                },
+                "text_ethos_title_2": {
+                  "type": "text",
+                  "settings": { "text": "<h5>Care</h5>", "width": "fit-content", "alignment": "center", "type_preset": "h5" },
+                  "blocks": {}
+                },
+                "text_ethos_desc_2": {
+                  "type": "text",
+                  "settings": { "text": "<p>Placeholder copy describing this pillar of the brand.</p>", "width": "100%", "alignment": "center", "type_preset": "rte" },
+                  "blocks": {}
+                }
+              },
+              "block_order": ["image_ethos_2", "text_ethos_title_2", "text_ethos_desc_2"]
+            },
+            "group_ethos_col3": {
+              "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 16,
+                "width": "fill",
+                "width_mobile": "fill",
+                "height": "fit"
+              },
+              "blocks": {
+                "image_ethos_3": {
+                  "type": "image",
+                  "settings": { "image_ratio": "portrait", "width": "fill", "height": "fit" },
+                  "blocks": {}
+                },
+                "text_ethos_title_3": {
+                  "type": "text",
+                  "settings": { "text": "<h5>Connection</h5>", "width": "fit-content", "alignment": "center", "type_preset": "h5" },
+                  "blocks": {}
+                },
+                "text_ethos_desc_3": {
+                  "type": "text",
+                  "settings": { "text": "<p>Placeholder copy describing this pillar of the brand.</p>", "width": "100%", "alignment": "center", "type_preset": "rte" },
+                  "blocks": {}
+                }
+              },
+              "block_order": ["image_ethos_3", "text_ethos_title_3", "text_ethos_desc_3"]
+            }
+          },
+          "block_order": ["group_ethos_col1", "group_ethos_col2", "group_ethos_col3"]
+        }
+      },
+      "block_order": ["text_ethos_heading", "group_ethos_row"],
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 40,
+        "section_width": "page-width",
+        "section_height": "",
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 80,
+        "padding-block-end": 80
+      }
+    },
+    "section_newsletter01": {
+      "type": "section",
+      "name": "t:names.section",
+      "blocks": {
+        "email_signup_block": {
+          "type": "email-signup",
+          "settings": {
+            "width": "custom",
+            "custom_width": 40,
+            "heading": "Join our list"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": ["email_signup_block"],
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 80,
+        "padding-block-end": 80
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
-    "product_list_fa6P9H"
+    "product_list_fa6P9H",
+    "section_ethos01",
+    "section_newsletter01"
   ]
 }
