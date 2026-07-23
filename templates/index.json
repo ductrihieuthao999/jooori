@@ -616,8 +616,8 @@
         "section_width": "page-width",
         "section_height": "",
         "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 120,
-        "padding-block-end": 120
+        "padding-block-start": 100,
+        "padding-block-end": 100
       }
     },
     "section_newsletter01": {

@@ -1483,7 +1483,7 @@
         "id": "free_shipping_threshold",
         "label": "t:settings.free_shipping_threshold",
         "info": "t:info.free_shipping_threshold",
-        "placeholder": 100
+        "placeholder": "100"
       },
       {
         "type": "select",
