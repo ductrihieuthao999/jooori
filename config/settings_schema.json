@@ -1479,13 +1479,6 @@
         "default": "page"
       },
       {
-        "type": "number",
-        "id": "free_shipping_threshold",
-        "label": "t:settings.free_shipping_threshold",
-        "info": "t:info.free_shipping_threshold",
-        "placeholder": "100"
-      },
-      {
         "type": "select",
         "id": "product_title_case",
         "label": "t:settings.product_title_case",
